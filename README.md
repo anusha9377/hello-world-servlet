@@ -21,5 +21,5 @@ sample
 21-06-2022
 07-12-2022 --> Today is Wednesday
 08-12-2022
-19-12-2022 --it is wednesday
+19-12-2022 --it is monday
 22-2-2023 --> it is wednesday
