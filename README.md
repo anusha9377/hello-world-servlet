@@ -24,3 +24,4 @@ sample
 19-12-2022 --> it is monday
 22-2-2023 --> it is wednesday
 22-02-2023 --->
+23-02-2023 --> it is thursday
