@@ -66,7 +66,7 @@ stages {
      // steps {
        // sh label: '', script: '''sed -i s/artifactversion/LATEST/ deploy.yml'''
       //}
- }
+// }
      stage('Deploy War') {
       steps {
         sh label: '', script: 'ansible-playbook deploy.yml'
