@@ -62,11 +62,11 @@ stages {
       }
  }
     
-     //stage('Update Artifact Version') {
-     // steps {
-       // sh label: '', script: '''sed -i s/artifactversion/LATEST/ deploy.yml'''
-      //}
-// }
+     stage('Update Artifact Version') {
+      steps {
+        sh label: '', script: '''sed -i s/artifactversion/$BUILD_NUMBER/ deploy.yml'''
+      }
+ }
      stage('Deploy War') {
       steps {
         sh label: '', script: 'ansible-playbook deploy.yml'
